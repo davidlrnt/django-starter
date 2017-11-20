@@ -1,0 +1,11 @@
+package-lock.json
+venv
+*.pyc
+.env
+env
+node_modules
+djangostarter/apps/static/js/builds
+djangostarter/apps/static/js/builds-dev
+db.sqlite3
+.DS_Store
+__pycache__

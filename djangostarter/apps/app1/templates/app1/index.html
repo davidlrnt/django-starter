@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+{% load static %}
+
+{% block content %}
+<div id="react-root">
+	<h5>App 1</h5>
+</div>
+<script src="{% static "js/builds-dev/app1.min.js" %}"></script>
+
+
+{% endblock content %}
+
+{% block javascript %}
+{% endblock javascript %}
